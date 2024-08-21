@@ -93,3 +93,19 @@ h1 {
     border-radius: 1rem;
     margin-bottom: .5rem;
 }
+.main-third {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 20rem 7rem 20rem;
+    background-color: #8080802c;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 300;
+    gap: 1rem; 
+}
+.citation {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 1.5rem;
+    font-style: normal;
+}
