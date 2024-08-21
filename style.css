@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem 15rem;
-    background-color: #1F2937;
+    background-color: hsla(215, 28%, 17%, 0.992);
     color: whitesmoke;
     align-items: center;
 }
@@ -63,9 +63,9 @@ h1 {
     font-weight: 900;
     border-radius: .5rem;
 }
-.first-button:hover {
+.first-button:hover, .fourth-button:hover {
     color: #f5f5f5cc;
-    background-color: #3881f6c1;
+    background-color: #3881f6a4;
 }
 .first-image {
     width: 100%;
@@ -96,7 +96,7 @@ h1 {
 .main-third {
     display: flex;
     flex-direction: column;
-    padding: 7rem 20rem 7rem 20rem;
+    padding: 5rem 20rem 7rem 20rem;
     background-color: #8080802c;
     font-size: 2rem;
     font-style: italic;
@@ -108,4 +108,41 @@ h1 {
     font-weight: 900;
     font-size: 1.5rem;
     font-style: normal;
+}
+.main-fourth {
+    display: flex;
+    flex-direction: column;
+    padding: 7rem 15rem 7rem 15rem;
+}
+.fourth-box {
+    background-color: #3882F6;
+    border-radius: 1rem;
+    padding: 4rem 10rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.fourth-left {
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.fourth-head {
+    font-weight: 900;
+    font-size: 3rem;
+}
+.fourth-left p {
+    margin-top: 1rem;
+}
+.fourth-right {
+    display: flex;
+    align-items: center;
+}
+.fourth-button {
+    padding: .5rem 2rem;
+    border: whitesmoke 5px solid;
+    background-color: #3882F6;
+    color: whitesmoke;
+    border-radius: 1rem;
+    font-weight: 900;
+    font-size: 2rem;
 }
