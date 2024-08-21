@@ -74,11 +74,22 @@ h1 {
 .main-second{
     display: flex;
     flex-direction: column;
-    padding: 3rem 15rem 7rem 15rem;
+    padding: 3rem 20rem 7rem 20rem;
 }
 .second-header {
     font-weight: 900;
     font-size: 2rem;
     align-self: center;
-
+}
+.second-cards {
+    margin-top: 3rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.second-images {
+    width: 100%;
+    border: solid #3881f68b 4px;
+    border-radius: 1rem;
+    margin-bottom: .5rem;
 }
